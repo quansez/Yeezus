@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Yeezus</title>
+</head>
+<body>
+  
+  <div class="content">
+    <div class="top-bar">
+    <a href="new.html">
+      <span class="material-symbols-rounded">Add</span>
+    </a>
+      <span>Now Playing</span>
+      <span class="material-symbols-rounded">more_horiz</span>
+    </div>
+    <div class="image-wrapper">
+      <div class="music-image">
+        <img src="images/img2.jpg">
+      </div>
+    </div>
+    <div class="music-titles">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-details">
+      <div class="progress-bar">
+        <span></span>
+      </div>
+      <div class="time">
+        <span class="current">0:00</span>
+        <span class="final">5:30</span>
+      </div>
+    </div>
+    <div class="control-btn">
+      <span class="material-symbols-rounded" id="repeat">repeat</span>
+      <span class="material-symbols-rounded" id="prev">keyboard_double_arrow_left</span>
+      <div class="play-pause">
+        <span class="material-symbols-rounded">play_arrow
+        </span>
+      </div>
+      <span class="material-symbols-rounded" id="next">keyboard_double_arrow_right</span>
+      <span class="material-symbols-rounded" id="shuffle">shuffle</span>
+
+    </div>
+
+    <div class="volumebar">
+      <div class="volume" id="volume"></div>
+      <div class="dot" id="dot"></div>
+    </div>  
+
+  <audio src="music/music1.mp3" class="main-song"></audio>
+
+  <script src="js/playlist.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
